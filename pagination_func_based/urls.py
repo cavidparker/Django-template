@@ -1,7 +1,7 @@
-# from django.urls import path, include
-# from .views import post_list
+from django.urls import path, include
+from .views import post_list
 
 
-# urlpatterns = [
-#     path('',post_list, basename ='home')
-# ]
+urlpatterns = [
+    path('',post_list,name = 'home')
+]

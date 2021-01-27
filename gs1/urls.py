@@ -19,6 +19,5 @@ from pagination_func_based import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    # path('pagination_func/', include('pagination_func_based.urls')),
-    path('', views.post_list, name='home')
+    path('pagination_func/', include('pagination_func_based.urls')),
 ]
