@@ -20,4 +20,6 @@ from pagination_func_based import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('pagination_func/', include('pagination_func_based.urls')),
+    path('pagination_class/', include('pagination_class_based.urls')),
+
 ]
